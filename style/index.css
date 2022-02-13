@@ -1,0 +1,60 @@
+.intro-img {
+  height: 80vh;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(131 185 154 / 28%),
+      rgb(11 67 11 / 36%)
+    ),
+    url(../img/hero2.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text-box {
+  text-align: center;
+}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+.heading-primary-main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.8rem;
+}
+.btn-round {
+  border-radius: 10rem;
+}
+.featured-title {
+  text-align: center;
+  margin: 3rem 0rem;
+}
+.featured-list {
+  justify-items: center;
+}
+a {
+  text-decoration: none;
+}
+.overlay-text {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+.card-vertical:hover {
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 20%);
+  transform: scale(1);
+  transition: 0.4s all;
+}
+.category-image {
+  height: 15rem;
+}
