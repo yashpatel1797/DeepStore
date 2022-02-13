@@ -1,0 +1,12 @@
+.filter {
+  padding: 0rem 5rem;
+}
+
+.text-container-title {
+  align-items: center;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.grid-20-80 {
+  background-color: var(--color-grey-light-2);
+}
