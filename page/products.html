@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="../style/main.css" />
+    <link rel="stylesheet" href="../style/products.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-section">
+        <div class="nav-logo">
+          <a href="../index.html" class="logo-title fn-size-l"
+            ><span>DeepKart</span></a
+          >
+        </div>
+      </div>
+      <div class="nav-search">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for product"
+        />
+        <a href="" class="btn btn-search">
+          <span class="material-icons"> search </span>
+        </a>
+      </div>
+      <div class="nav-user">
+        <a href="./login.html" class="btn nav-user-btn">
+          <span class="material-icons"> person </span>
+          <span>Hi Name</span></a
+        >
+        <a href="./wishlist.html" class="btn nav-user-btn">
+          <span class="material-icons"> favorite </span>
+          <span>Wishlist</span></a
+        >
+        <a href="./cart.html" class="btn nav-user-btn">
+          <span class="material-icons"> shopping_cart </span>
+          <span>Cart</span></a
+        >
+      </div>
+    </nav>
+    <div class="spacer-3rem"></div>
+    <div class="filter-products">
+      <!-- <h2 style="text-align: center">featured category</h2> -->
+      <div class="grid-20-80">
+        <div class="filter">
+          <div class="filter-title">
+            <button class="btn">Filter</button>
+            <button class="btn btn-link">Clear</button>
+          </div>
+          <h2>Category</h2>
+          <ul class="filter-category list-spaced list-checkbox fn-size-m">
+            <li>
+              <label class="list-label">
+                <input type="checkbox" name="" id="" />Biography
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="checkbox" name="" id="" />Fiction
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="checkbox" name="" id="" />Finances
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="checkbox" name="" id="" />Self-Help
+              </label>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <h2>Rating</h2>
+          <ul class="list-spaced list-radio fn-size-m">
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />4 Stars & above
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />3 Stars & above
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />2 Stars & above
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />1 Stars & above
+              </label>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <h2>Sort by</h2>
+          <ul class="list-spaced list-radio fn-size-m">
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />Price - Low to
+                High
+              </label>
+            </li>
+            <li>
+              <label class="list-label">
+                <input type="radio" name="list-radio" id="" />Price - High to
+                Low
+              </label>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <h2>Price</h2>
+          <label for="slider">
+            <input
+              class="slider"
+              type="range"
+              name="slider"
+              min="0"
+              max="100"
+              value="30"
+            />
+          </label>
+        </div>
+        <div class="products">
+          <div class="grid-4-column">
+            <!-- Place card-vertical div for 4 times -->
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/51vgy3LMz6L._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Wings of fire</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by A. P. J. Abdul Kalam</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <!-- solution width-25rem height 25rem -->
+                <!-- src="https://m.media-amazon.com/images/I/71KKZlVjbwL._AC_UL480_FMwebp_QL65_.jpg" -->
+                <img
+                  src="https://m.media-amazon.com/images/I/41n1edvVlLL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Steve Jobs</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Walter Isaacson</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/71IIC0n4cBL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Einstein: His Life and Universe</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Walter Isaacson</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/81C0rgkaoGL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>The phycology of money</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Morgan Housel</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="grid-4-column">
+            <!-- Place card-vertical div for 4 times -->
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/411r+u9cd7L._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Deep Work</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Cal Newport</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <!-- solution width-25rem height 25rem -->
+                <!-- src="https://m.media-amazon.com/images/I/71KKZlVjbwL._AC_UL480_FMwebp_QL65_.jpg" -->
+                <img
+                  src="https://images-na.ssl-images-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg"
+                  alt=""
+                  class="card-image"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Atomic Habits</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by James Clear</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/71m-MxdJ2WL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Zero to One</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Peter Thiel</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Rich Dad Poor Dad</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Robert T. Kiyosaki</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="grid-4-column">
+            <!-- Place card-vertical div for 4 times -->
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/I/71AdHA+qqwL._AC_UL160_SR160,160_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Think and Grow Rich</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Napoleon Hill</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <!-- solution width-25rem height 25rem -->
+                <!-- src="https://m.media-amazon.com/images/I/71KKZlVjbwL._AC_UL480_FMwebp_QL65_.jpg" -->
+                <img
+                  src="https://m.media-amazon.com/images/I/91iMu22uEWL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>Fire and Blood</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by George R.R. Martin</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY327_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>The Alchemist</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Paulo Coelho</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="card-vertical">
+              <div class="image-container">
+                <img
+                  src="https://m.media-amazon.com/images/I/916fuxlx90L._AC_UL480_FMwebp_QL65_.jpg"
+                  alt=""
+                  class="card-image"
+                />
+                <span class="card-badge">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h3>A Man Called Ove</h3>
+                  <button class="btn btn-icon-only">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                </div>
+                <div class="text-container-desc">
+                  <p>by Fredrik Backman</p>
+                  <p>
+                    Rs. 999<span class="text-container-strike">Rs. 1200</span>
+                    <span>10% off</span>
+                  </p>
+                </div>
+                <button class="btn btn-solid btn-icon-center">
+                  <span class="material-icons"> save </span>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Made by Yash Patel</p>
+      <div>
+        <button class="btn">
+          <a
+            href="https://github.com/yashpatel1797"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+        <button class="btn">
+          <a
+            href="https://twitter.com/yesgpatel"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+        <button class="btn">
+          <a
+            href="https://www.linkedin.com/in/yashpatel797/"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
