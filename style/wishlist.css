@@ -1,0 +1,14 @@
+.wishlist {
+  justify-items: center;
+}
+.icon-notification {
+  position: absolute;
+  top: 0.2rem;
+  left: 5.9rem;
+}
+.icon-cart {
+  left: 4rem;
+}
+.nav-notification-icon {
+  position: relative;
+}
