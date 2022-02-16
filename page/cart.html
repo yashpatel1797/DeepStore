@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="../style/main.css" />
+    <link rel="stylesheet" href="../style/cart.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-section">
+        <div class="nav-logo">
+          <a href="../index.html" class="logo-title fn-size-l"><span>DeepKart</span></a>
+        </div>
+      </div>
+      <div class="nav-search">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for product"
+        />
+        <a href="" class="btn btn-search">
+          <span class="material-icons"> search </span>
+        </a>
+      </div>
+      <div class="nav-user">
+        <a href="./login.html" class="btn nav-user-btn">
+          <!-- <span class="material-icons"> person </span> -->
+          <span class="material-icons">
+            logout
+            </span>
+          <span>Logout</span></a
+        >
+        <a href="./wishlist.html" class="btn nav-user-btn">
+          <span class="material-icons"> favorite </span>
+          <span>Wishlist</span></a
+        >
+        <a href="./cart.html" class="btn nav-user-btn">
+          <span class="material-icons"> shopping_cart </span>
+          <span>Cart</span></a
+        >
+      </div>
+    </nav>
+    <h3 class="page-title">My Cart</h3>
+    <div class="cart">
+      <div class="cart-list">
+        <div class="card-horizontal">
+          <div class="image-container">
+            <img src="https://m.media-amazon.com/images/I/81C0rgkaoGL._AC_UY327_FMwebp_QL65_.jpg" alt="" class="card-image" />
+            <!-- <span class="card-badge">New</span> -->
+          </div>
+          <div class="text-container">
+            <div class="text-container-title">
+              <h6>The phycology of money</h6>
+              <!-- <button class="btn btn-icon-only">
+                <span class="material-icons">
+                  delete
+                  </span> 
+              </button> -->
+            </div>
+            <div class="text-container-desc">
+              <p>by Morgan Housel</p>
+              <p>
+                Rs. 999
+                <span class="text-container-strike">Rs. 1200</span>
+                <span>10% off</span>
+              </p>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round no-rating"> star_border </span>
+              <p></p>
+            </div>
+            <div class="row">
+              <button class="btn btn-icon-only">
+                <span class="material-icons"> remove </span>
+              </button>
+              <span class="fn-size-m">3</span>
+              <button class="btn btn-icon-only">
+                <span class="material-icons"> add </span>
+              </button>
+            </div>
+
+            <button class="btn btn-solid btn-cta">Remove from cart</button>
+            <button class="btn btn-outline btn-cta">Move to wishlist</button>
+          </div>
+        </div>
+        <div class="spacer-1rem"></div>
+        <div class="card-horizontal">
+          <div class="image-container">
+            <img src="https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY327_FMwebp_QL65_.jpg" alt="" class="card-image" />
+            <!-- <span class="card-badge">New</span> -->
+          </div>
+          <div class="text-container">
+            <div class="text-container-title">
+              <h6>The Alchemist</h6>
+              <!-- <button class="btn btn-icon-only">
+                <span class="material-icons">
+                  delete
+                  </span> -->
+              </button>
+            </div>
+            <div class="text-container-desc">
+              <p>by Paulo Coelho</p>
+              <p>
+                Rs. 999
+                <span class="text-container-strike">Rs. 1200</span>
+                <span>10% off</span>
+              </p>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round rating"> star_rate </span>
+              <span class="material-icons-round no-rating"> star_border </span>
+              <p></p>
+            </div>
+            <div class="row">
+              <button class="btn btn-icon-only">
+                <span class="material-icons"> remove </span>
+              </button>
+              <span class="fn-size-m">3</span>
+              <button class="btn btn-icon-only">
+                <span class="material-icons"> add </span>
+              </button>
+            </div>
+
+            <button class="btn btn-solid btn-cta">Remove from cart</button>
+            <button class="btn btn-outline btn-cta">Move to wishlist</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart-checkout">
+        <h1>Price Details</h1>
+        <!-- <div class="line"></div> -->
+        <div>
+          <p>Price(2 items)</p>
+          <p>₹4999</p>
+        </div>
+        <div>
+          <p>Discount</p>
+          <p>-₹1999</p>
+        </div>
+        <div>
+          <p>Delivery Charges</p>
+          <p>₹499</p>
+        </div>
+        <div>
+          <p>Total Amount</p>
+          <p>₹3999</p>
+        </div>
+        <p>You will save ₹4000 on this order</p>
+      <button class="btn btn-solid">Place Order</button>
+
+      </div>
+
+    </div>
+    
+      
+    </div>
+    <footer>
+      <p>Made by Yash Patel</p>
+      <div>
+        <button class="btn">
+          <a
+            href="https://github.com/yashpatel1797"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+        <button class="btn">
+          <a
+            href="https://twitter.com/yesgpatel"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+        <button class="btn">
+          <a
+            href="https://www.linkedin.com/in/yashpatel797/"
+            class="nav-icon-link link-no-style"
+          >
+            <span class="nav-icon">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </span>
+          </a>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
