@@ -3,6 +3,18 @@
 @import url("footer.css");
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 
+.dark-theme .text-intro,
+.dark-theme .login-form,
+.dark-theme .filter,
+.dark-theme .products {
+  color: #a0aec0;
+  background-color: #2b2f3d;
+}
+.dark-theme .nav-bar {
+  color: #a0aec0;
+  background-color: #212726;
+  background-color: #434047;
+}
 .spacer-1rem {
   width: 100%;
   height: 1rem;
